@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<style>
+    .btnColor {
+        border-color: #422AD5;
+        color: #422AD5;
+    }
+
+    .btnColor:hover {
+        background-color: #422AD5;
+        border-color: white;
+        color: white;
+    }
+</style>
+
+<body>
+    <!-- header section -->
+    <header class="bg-[#C6BDBD40] border-y border-[#C6BDBD]">
+        <nav class="w-11/12 mx-auto flex justify-between">
+            <div class="flex my-1">
+                <p class="text-xl py-1">English</p><img src="assest/logo.png" alt="">
+                <p class="text-xl py-1">জানালা</p>
+            </div>
+            <div class="flex gap-2 py-2">
+                <div class="btn btn-sm btnColor">
+                    <i class="fa-solid fa-circle-question"></i> FAQ
+                </div>
+                <div class="btn btn-sm btnColor">
+                    <i class="fa-solid fa-book-open"></i>Learn
+                </div>
+                <div class="btn btn-sm btnColor">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>Log out
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- log in log out -->
+    <section class="w-11/12 mx-auto flex justify-between">
+        <div class="w-11/12 my-auto">
+            <div class="text-4xl font-extrabold"><span class="text-[#71c1f9]">English</span> is Easy!!</div>
+            <div class="my-2">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন <br>হন অথবা আপনার দক্ষতা বাড়াতে
+                চান, আমাদের Interactive Lessons<br>
+                আপনাকে নিয়ে যাবে অন্য একটি Level এ</div>
+            <div class="my-1"><label class="input">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </g>
+                    </svg>
+                    <input type="search" required placeholder="Enter Your Name" />
+                </label></div>
+            <div class="my-1"><label class="input">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </g>
+                    </svg>
+                    <input type="password" required placeholder="Enter Your Password" />
+                </label></div>
+            <div class="btn btn-sm bg-[#422AD5] text-white my-1">Get started</div>
+        </div>
+        <div class="w-6/12 my-auto"><img src="/assest/hero-student.png" alt=""></div>
+    </section>
+    <!-- all btn -->
+    <section class="text-center m-5">
+        <div class="my-3 text-3xl font-extrabold"><span class="text-[#5dc8f2]">Let's</span> Learn Vocabularies</div>
+        <div id="btn-section" class="my-3 flex justify-center gap-1">
+        </div>
+    </section>
+    <!-- all lesson will start here first emty -->
+    <section class="">
+        <div id="lession-secton" class="grid grid-cols-4 gap-2 w-11/12 mx-auto bg-[#F8F8F8] my-10">
+            
+        </div>
+    <div id="make-mt" class="gap-2 w-11/12 mx-auto bg-[#F8F8F8] my-10">
+        <div class="text-center h-40">
+            <p class="py-6 text-sm text-[#ababab]">আপনি এখনো কোন Lesson Select করেন নাই ।</p>
+            <p class="text-3xl">একটি Lesson Select করুন।</p>
+        </div>
+    </div>
+    </section>
+    <!-- i will give loader here -->
+
+    <!-- here will apear ques-->
+    <section class="py-6">
+        <p class="text-3xl text-center font-semibold"><span class="text-[#00BCFF]">Frequently</span> Asked Questiona</p>
+        <div class="p-5">
+        <div tabindex="0" class="collapse collapse-plus bg-base-100 border-base-300 bg-[#f4f3f3] my-3">
+            <div class="collapse-title font-semibold">1.How can I start learning English on this website?</div>
+            <div class="collapse-content text-sm text-[#bebebe]">
+            You can start by exploring our beginner lessons, interactive exercises, and quizzes. We also offer structured courses to
+            guide you step by step.
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus bg-base-100 border-base-300 bg-[#f4f3f3] my-3">
+            <div class="collapse-title font-semibold">2.Is this website free to use?</div>
+            <div class="collapse-content text-sm text-[#bebebe]">
+                Click the "Sign Up" button in the top right corner and follow the registration process.
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus bg-base-100 border-base-300 bg-[#f4f3f3] my-3">
+            <div class="collapse-title font-semibold">3. Do I need to create an account?</div>
+            <div class="collapse-content text-sm text-[#bebebe]">
+                Click the "Sign Up" button in the top right corner and follow the registration process.
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus bg-base-100 border-base-300 bg-[#f4f3f3] my-3">
+            <div class="collapse-title font-semibold">4. How can I build my English vocabulary?</div>
+            <div class="collapse-content text-sm text-[#bebebe]">
+                Click the "Sign Up" button in the top right corner and follow the registration process.
+            </div>
+        </div>
+        <div tabindex="0" class="collapse collapse-plus bg-base-100 border-base-300 bg-[#f4f3f3] my-3">
+            <div class="collapse-title font-semibold">5. Do you offer certificates for completed courses?</div>
+            <div class="collapse-content text-sm text-[#bebebe]">
+                Click the "Sign Up" button in the top right corner and follow the registration process.
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- make normal card -->
+    <!-- there will no work with footer -->
+    <footer class="border-y border-[#32323220] ">
+        <div class="w-11/12 mx-auto h-[100px] my-11">
+            <div class="flex my-1">
+                <p class="text-sm font-bold py-1">English</p><img class="w-7 h-7" src="assest/logo.png" alt="">
+                <p class="text-sm font-bold py-1">জানালা</p>
+            </div>
+            <div class=" flex justify-between">
+                <div class="">
+                    <p>ইংরেজি শিখুন সহজে</p>
+                    <p>Providing ED-Tech Applications since 2025</p>
+                </div>
+                <div class="">
+                    <p>Follow Us</p>
+                    <div class="flex gap-2 w-5">
+                        <img src="assest/fb-thumb.png" alt="">
+                        <img src="assest/youtube-thumb.png" alt="">
+                        <img src="assest/instagram-thumb.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/3fd66e39ee.js" crossorigin="anonymous"></script>
+<script src="script/index.js"></script>
+
+</html>
